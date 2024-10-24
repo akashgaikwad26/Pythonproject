@@ -1,5 +1,5 @@
 const csv = require('csv-parser');
-const fs = require('fs');
+fs = require('fs');
 
 
 
@@ -26,9 +26,7 @@ async function GetData(fileName) {
 
         const data = await toReadExcel(fileName);
         return data;
-       catch (error) {
-        return error;
-    }
+   
 }
 
 GetData('userGroup.csv');
