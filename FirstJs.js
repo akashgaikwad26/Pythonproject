@@ -1,5 +1,5 @@
 const csv = require('csv-parser');
-fs = require('fs');
+const fs = require('fs');
 
 
 
